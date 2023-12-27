@@ -1,0 +1,58 @@
+.avatar {
+    width: 400px;
+    height: 0, auto;
+    margin-left: 5px;
+    
+}
+.sobre {
+   width: 100%;
+   min-height: 85vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center; 
+   justify-content: center;
+}
+
+.bio {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 1.5rem;
+    margin-right: 5px;
+
+}
+
+.bio span {
+    color: var(--red);
+    font-weight: bold;
+}
+
+.bio strong {
+    color: var(--secondary);
+    font-weight: bold;
+}
+.textos h2, p{
+    margin-bottom: 1rem;
+}
+.texto p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.techs {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icones {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icones img {
+    height: 50px;
+}
