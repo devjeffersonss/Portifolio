@@ -17,11 +17,12 @@ function Header() {
         className={`${styles.menuSandwich} ${showMenu ? styles.show : ""}`}
         onClick={togglemenu}
       >
-        <Link to="/">Home</Link>
-        <Link to="/Sobre">Sobre</Link>
-        <Link to="/Projetos">Projetos</Link>
-        <Link to="/Contatos">Contatos</Link>
-      </nav>
+       
+          <Link to="/">Home</Link>
+          <Link to="/Sobre">Sobre</Link>
+          <Link to="/Projetos">Projetos</Link>
+          <Link to="/Contatos">Contatos</Link>
+        </nav>
       <div className={styles.menuButton} onClick={togglemenu}>
         <span className={styles.linha}></span>
         <span className={styles.linha}></span>

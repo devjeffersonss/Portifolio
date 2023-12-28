@@ -1,26 +1,26 @@
 .avatar {
-    width: 400px;
-    height: 0, auto;
+    width: 350px;
+    height: auto;
     margin-left: 5px;
     padding-top: 3rem;
     
 }
 .sobre {
    width: 100%;
-   min-height: 85vh;
+   min-height: 5vh;
    display: flex;
    flex-direction: column;
    align-items: center; 
    justify-content: center;
-   padding-block: 40px;
+   margin-top: 5rem;
+   
 }
 
 .bio {
     display: flex;
     align-items: center;
     gap: 3rem;
-    margin-bottom: 1.5rem;
-    margin-right: 5px;
+    
 
 }
 
@@ -46,6 +46,7 @@
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+    padding-bottom: 1.5rem;
 }
 
 .icones {
@@ -53,6 +54,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: 1rem;
 }
 
 .icones img {
@@ -67,6 +69,11 @@
         padding-inline: 20px;
         gap: 1rem;
     }
+    .avatar {
+        width: 300px;
+        height: auto;
+        margin-top: 17rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -75,5 +82,9 @@
     }
     .icones img {
         height: 40px;
+    }
+    .avatar {
+        width: 200px;
+        height: auto;
     }
 }

@@ -31,7 +31,7 @@ function Sobre() {
                 e resolução de problemas.
                 <br/><br />
                     <p>Minhas Explorações:</p> Ao longo deste percurso inicial, explorei
-                linguagens de programação, desde o [javaScript] ao [PHP].
+                linguagens de programação, desde o javaScript ao PHP.
                 Meu objetivo é não apenas aprender a linguagem, mas compreender os
                 fundamentos que impulsionam a magia do código.
             </p>
