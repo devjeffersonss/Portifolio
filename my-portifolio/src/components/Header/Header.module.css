@@ -1,8 +1,12 @@
 .header {
     width: 100%;
-    height: 50px;
+    height: 40px;
     background-color: var(--primary);
     color:#fff;
+    
+    /*fixando o navbar */
+    position: fixed;
+    top: 0;
 
     /* alinhamento do Header com tag a baixo. */
     display: flex;

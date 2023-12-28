@@ -6,12 +6,13 @@
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .home img {
+    width: 500px;
     height: 500px;
-    margin-left: 6.25rem;
+    
 }
 
 .home p {
@@ -46,4 +47,26 @@
 
 .btn_red:hover {
     background-color: var(--primary);
+}
+
+/* Resposividade */
+
+@media (max-width: 768px) {
+    .home{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .home p {
+        font-size: 2rem;
+
+    }
+    .home img {
+        max-width: 100%;
+        height: auto;
+        padding-inline: 2.5rem;
+        width: 300px;
+        
+    }
 }

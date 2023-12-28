@@ -1,5 +1,9 @@
 .projetos {
-    text-align: center;
+    padding-block: 2.5rem;  
+}
+.projetos h2 {
+   text-align: center;
+   padding-block: 1rem;
 }
 
 .lista {
@@ -9,5 +13,8 @@
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
-    margin-block: 1rem;
+    margin-block:3rem;
+    margin-top: 1rem;
+    
+    
 }
