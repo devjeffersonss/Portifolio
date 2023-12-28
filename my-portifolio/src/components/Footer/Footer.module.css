@@ -12,5 +12,18 @@
     /* fixando o footer */
     position: fixed;
     bottom: 0;
+}
 
+/* Reponsividade do footer */
+
+@media (max-width: 768px) {
+    .footer {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        font-size: 0.75rem;
+    }
 }

@@ -29,7 +29,18 @@
     padding: 1.5rem;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    
+    justify-content: space-evenly;    
+}
 
+@media (max-widht: 768px) {
+    .contatos {
+        padding-inline: 20px;
+       
+    }
+}
+
+@media (max-widht: 768px) {
+    .icones {
+        gap: 0.5rem;
+    }
 }
