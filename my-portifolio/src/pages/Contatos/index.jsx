@@ -3,12 +3,15 @@ import { MdMailOutline } from "react-icons/md"
 import { CiLinkedin} from "react-icons/ci"
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import Logo from './imgContact/contact.svg'
+
+
 
 function Contato () {
     return (
         <>
             <section className={styles.contatos}>
-                <img className={styles.imgContact} src="/Public/contact.svg" alt="imagem da pg de contato" />
+                <img className={styles.ImgContact} src={Logo} alt="imagem da pg de contato" />
                 <h2>Contatos</h2>
                 <h3>Entre em contato</h3>
                 <p>Para que possamos conversar mais sobre.</p>

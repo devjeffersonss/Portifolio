@@ -17,7 +17,6 @@ function Header() {
         className={`${styles.menuSandwich} ${showMenu ? styles.show : ""}`}
         onClick={togglemenu}
       >
-       
           <Link to="/">Home</Link>
           <Link to="/Sobre">Sobre</Link>
           <Link to="/Projetos">Projetos</Link>
